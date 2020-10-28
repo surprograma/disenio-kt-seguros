@@ -1,4 +1,6 @@
-# Seguros
+# Compañía de seguros
+
+![Saul](assets/saul.jpg)
 
 ## Antes de empezar: algunos consejos
 
