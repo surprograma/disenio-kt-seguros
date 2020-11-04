@@ -12,7 +12,7 @@ En otras palabras: trabajen completando cada requerimiento antes de pasar al sig
 
 ## Descripción del dominio
 
-Una aseguradora trabaja con **autos**, **camiones** y **taxis** y ofrece varios tipos de seguros.
+Una aseguradora trabaja con **autos**, **camiones** y **taxis** y ofrece varios tipos de seguros. De cada vehículo se conoce su **valor en pesos** y su **antigüedad**.
 
 Para cada vehículo se puede contratar la combinatoria de seguros que se desee (todos o alguno de ellos), siempre y cuando cumpla los criterios que establece la compañía. Por el momento no nos interesa registrar a los clientes, por lo que asociaremos los seguros directamente a cada vehículo.
 
@@ -44,7 +44,7 @@ Este seguro únicamente pueden contratarlo los autos, y el costo se calcula como
 Se pide resolver los siguientes requerimientos **sin** utilizar casteos ni chequeos de tipo (o sea, no vale usar `as` ni `is`). Debe respetarse la estructura incluida en este repositorio, pudiendo agregarse otros métodos y atributos que consideren necesarios. Los métodos que están hay que implementarlos, no se pueden borrar.
 
 1. Determinar si un vehículo puede contratar un determinado seguro.
-1. Saber cuánto costaría un seguro para un vehículo determinado. Si se consulta para un vehículo que no puede contratar el seguro, arrojar un error. Para este requerimiento, no se puede usar ningún tipo de condicional (ni `if`, ni `when`, ni nada).
+1. Saber cuánto costaría un seguro para un vehículo determinado. Si se consulta para un vehículo que no puede contratar el seguro, arrojar un error. Para este requerimiento, no se puede usar ningún tipo de condicional para preguntar por el tipo de vehículo (ni `if`, ni `when`, ni nada).
 1. Contratar un seguro: lo cual implica que el vehículo pasa a efectivamente contar con ese seguro. Si se intenta asegurar un vehículo que no cumple los requisitos, arrojar un error.
 1. Conocer el costo total que un vehículo abona en concepto de seguros, el cual se determina simplemente sumando los costos de los seguros contratados.
 
