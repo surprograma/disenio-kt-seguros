@@ -31,7 +31,7 @@ Cualquier vehículo puede contratar este seguro.
 
 Su costo se calcula de la siguiente manera:
 * para un taxi o un camión: 5% del valor del vehículo,
-* para auto: 3% siempre y cuando el auto haya sido fabricado en 1995 ó después. En caso contrario, se toma un 5% del valor del vehículo.
+* para auto: 3% siempre y cuando el auto haya sido fabricado en 1995 ó después. En caso contrario, se toma un 5% del valor del vehículo. **Ojo :eyes::** el año de fabricación no es un dato con el que contamos, pero sabiendo la antigüedad podemos calcularlo en función del año actual.
 
 Los camiones mayores a 10 años no se pueden asegurar contra robo. Lo mismo sucede con los taxis con más de 12 años de antigüedad.
 
