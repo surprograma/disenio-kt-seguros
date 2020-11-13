@@ -41,10 +41,10 @@ Este seguro únicamente pueden contratarlo los autos, y el costo se calcula como
 
 ## Requerimientos
 
-Se pide resolver los siguientes requerimientos **sin** utilizar casteos ni chequeos de tipo (o sea, no vale usar `as` ni `is`). Debe respetarse la estructura incluida en este repositorio, pudiendo agregarse otros métodos y atributos que consideren necesarios. Los métodos que están hay que implementarlos, no se pueden borrar.
+Se pide resolver los siguientes requerimientos **sin** utilizar casteos ni chequeos de tipo (o sea, no vale usar `as` ni `is`, ni preguntar por el tipo de ningún objeto). Debe respetarse la estructura incluida en este repositorio, pudiendo agregarse otros métodos y atributos que consideren necesarios. Los métodos que están hay que implementarlos, no se pueden borrar.
 
 1. Determinar si un vehículo puede contratar un determinado seguro.
-1. Saber cuánto costaría un seguro para un vehículo determinado. Si se consulta para un vehículo que no puede contratar el seguro, arrojar un error. Para este requerimiento, no se puede usar ningún tipo de condicional para preguntar por el tipo de vehículo (ni `if`, ni `when`, ni nada).
+1. Saber cuánto costaría un seguro para un vehículo determinado. Si se consulta para un vehículo que no puede contratar el seguro, arrojar un error.
 1. Contratar un seguro: lo cual implica que el vehículo pasa a efectivamente contar con ese seguro. Si se intenta asegurar un vehículo que no cumple los requisitos, arrojar un error.
 1. Conocer el costo total que un vehículo abona en concepto de seguros, el cual se determina simplemente sumando los costos de los seguros contratados.
 
